@@ -1,0 +1,31 @@
+<% include ./partials/header %>
+<br>
+<br>
+<br>
+
+<center>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th scope="col">S.NO</th>
+        <th scope="col">NAME</th>
+        <th scope="col">FATHER NAME</th>
+        <th scope="col">EMAIL</th>
+        <th scope="col">MOBILE NUMBER</th>
+        <th scope="col">ADDRESS</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td><%= form.name %></td>
+        <td><%= form.fatherName %></td>
+        <td><%= form.email %></td>
+        <td><%= form.mobileNumber %></td>
+        <td><%= form.address %></td>
+      </tr>
+    </tbody>
+    <button type="submit" class="btn btn-primary">Submit</button>
+
+</center>
+<% include ./partials/footer %>
